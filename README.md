@@ -49,6 +49,6 @@ In the long run the solution can be further improved by using a persistent data 
 
 In terms of scalability this solution can scale vertically by increasing the system resources such as memory.
 
-Horizontal scalability can be achieved by using infrastructure such as AWS elastic container with Docker image (https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#use-ecr) or AWS web instance configured as auto scaling group (https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) further fronted by AWS load balancer.
+Horizontal scalability can be achieved by using infrastructure such as AWS elastic container or AWS web instance configured as auto scaling group (https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html) further fronted by AWS load balancer.
 
 
