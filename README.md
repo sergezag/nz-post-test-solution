@@ -34,7 +34,7 @@ and algorithms (https://jgrapht.org/). JGraphT is mature library that provides r
 
 The application allows for the source and the destination nodes to be entered as letters A to J, it returns shortest path found in the loaded test data.
 
-For example if the source and the destination are A,B the solution is AB12 or for the query B,I the solution is BIJ25. The application also handles the situation where the source and the destination are the same letter thus the query A,A returns AA0 as the shortest path.
+For example if the source and the destination are A,B the solution is AB12 or for the query B,I the solution is BIJ25. The application also handles the situation where the source and the destination are the same letter thus the query A,A returns A0 as the shortest path.
 
 For the convience purposes the solution is exposed as a web service using Springboot libary. It runs on default 8080 port. It provides get-shortest-route call
 /get-shortest-route/route/{query}
